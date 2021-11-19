@@ -1,0 +1,22 @@
+{
+    "name": "jorge.gutierrezm/10.bienesraices",
+    "description": "Developing with POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Model\\": "./models",
+            "Controller\\": "./controller"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge",
+            "email": "jorge.gutierrezm@wundermanthompson.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.6",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}

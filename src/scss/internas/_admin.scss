@@ -1,0 +1,62 @@
+.alerta {
+    padding: .5rem;
+    text-align: center;
+    font-weight: $bold;
+    margin: 1rem 0;
+
+    &.error{
+        background-color: $rojo;
+        color: $blanco;
+    }
+
+    &.exito {
+        border-radius: 1rem;
+        margin: 0 30rem 2rem 30rem;
+        padding: 3rem 0;
+        background-color: $verde;
+        color: $negro;
+    }
+}
+
+table.properties {
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+    border: 2px solid $grisOscuro;
+    border-collapse: collapse;
+    padding: 2px 8px 0;
+
+    thead{
+        background-color: lighten($amarillo,15);
+
+        th{
+            color: $negro;
+            border: 1px solid $negro;
+            padding: 1rem;
+        }
+    }
+    .imagen-tabla {
+        display: inline;
+        width: 15rem;
+    }
+
+    tbody{
+        
+        td{
+            text-align: center;
+            border: 1px solid $negro;
+
+            a{
+                margin-top: .5rem;
+            }
+        }
+    }
+}
+
+.image__update-view {
+    width: 30rem;
+}
+
+.w-100 {
+    width: 100%;
+}
