@@ -83,8 +83,8 @@ class pageController{
             $phpmailer->Host = 'smtp.mailtrap.io';
             $phpmailer->SMTPAuth = true;
             $phpmailer->Port = 2525;
-            $phpmailer->Username = 'ddbed4e7b00fb6';
-            $phpmailer->Password = '9449c85ef830a1';
+            $phpmailer->Username = 'f15df1cd5c0631';
+            $phpmailer->Password = '450c92b515cf9f';
             $phpmailer->SMTPSecure = 'tls';
 
             $contact = $_POST['contact'];
